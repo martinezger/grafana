@@ -19,7 +19,6 @@ export {
   BasicValueMatcherOptions,
   RangeValueMatcherOptions,
 } from './transformations/matchers/valueMatchers/types';
-export { LayoutModes, LayoutMode } from './types/layout';
 export { PanelPlugin, SetFieldConfigOptionsArgs, StandardOptionConfig } from './panel/PanelPlugin';
 export { createFieldConfigRegistry } from './panel/registryFactories';
 export { QueryRunner, QueryRunnerOptions } from './types/queryRunner';

@@ -128,7 +128,6 @@ exports[`Render should render action bar and datasources 1`] = `
         ]
       }
       key="list"
-      layoutMode="grid"
     />
   </PageContents>
 </Page>
