@@ -1,5 +1,6 @@
 import { css } from '@emotion/react';
 import { GrafanaThemeV2 } from '@grafana/data';
+
 export function getCardStyles(theme: GrafanaThemeV2) {
   return css`
     .card-section {
@@ -111,7 +112,7 @@ export function getCardStyles(theme: GrafanaThemeV2) {
       }
 
       .card-item-figure {
-        margin: ${theme.spacing(0, 2, 2, 0)}0;
+        margin: ${theme.spacing(0, 2, 2, 0)};
         height: 80px;
 
         img {
@@ -148,7 +149,7 @@ export function getCardStyles(theme: GrafanaThemeV2) {
       .card-item-wrapper {
         padding: 0;
         width: 100%;
-        margin-bottom: ${theme.spacing(4)};
+        margin-bottom: ${theme.spacing(0.5)};
       }
 
       .card-item-wrapper--clickable {
