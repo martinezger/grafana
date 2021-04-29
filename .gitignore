@@ -126,3 +126,6 @@ compilation-stats.json
 
 # auto generated frontend docs
 /docs/sources/packages_api
+
+# vscode workspace
+*.code-workspace
